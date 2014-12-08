@@ -4,7 +4,7 @@ This is a FORK of http://orangkucing.tumblr.com/iphone-theme-install
 ---------------------------------------------------------------------
 **rowrz edit: allows the use of jquery libraries without conflicting infinite scroll, also brings html5 feautures**
 
-This is the **old** __default__ mobile theme for tumblr
+This is the **old** _default_ mobile theme for tumblr
 
 Here is the possible default iphone-theme (layout for iPhone or other mobile devices), a template of Tumblr. Since Tumblr does not publish the original, I had to do some reverse engineering things before making the page available.
 
