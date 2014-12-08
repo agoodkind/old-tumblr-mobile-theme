@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
+    <link rel="stylesheet" type="text/css" href="https://secure.static.tumblr.com/4ra4qv5/Zoundmipb/normalize.css">
+    <script src="https://secure.static.tumblr.com/4ra4qv5/lihnfxm92/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>{Title}</title>
     <meta name="viewport" content="width=640"/>
     <link rel="shortcut icon" href="{Favicon}" />
     <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}"/>
-    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <meta name="description" content="{MetaDescription}" />
     <style type="text/css">
         html {
             width: 640px;
@@ -37,7 +42,7 @@
             color: inherit;
             word-wrap: break-word;
         }
-        
+
         .gray_bubble {
             text-shadow: 0px 2px 5px rgba(0,0,0,.75);
             -webkit-font-smoothing: antialiased;
@@ -48,11 +53,11 @@
             margin: 20px 20px 0 20px;
 
         }
-        
+
         header {
             padding: 31px 27px 24px 28px;
         }
-        
+
             header a.title {
                 max-width: 317px;
                 color: #fff;
@@ -65,7 +70,7 @@
                 display: inline-block;
                 float: left;
             }
-            
+
             header .info {
                 max-height: 70px;
                 color: #d8d8d8;
@@ -74,13 +79,13 @@
                 overflow: hidden;
                 position: relative;
             }
-            
+
                 header .info.showing {
                     height: auto;
                     max-height: 9999px;
                     overflow: visible;
                 }
-            
+
                 header .info .body span.description_words {
                     margin: 22px 0 0 0;
                 }
@@ -88,7 +93,7 @@
                     header .info .body span.description_words:empty {
                         margin: 0px;
                     }
-            
+
                 header .info .body .show {
                     width: 120px;
                     height: 30px;
@@ -98,18 +103,18 @@
                     position: absolute;
                     right: 0;
                     bottom: 0;
-                }    
+                }
 
                     header .info.showing .body .show {
                         width: 24px;
                         right: -10px;
                         bottom: -16px;
                     }
-            
+
                     header .info .body .show a {
                         font-weight: bold;
                     }
-                    
+
                     header .info .body .show .gradient {
                         width: 100px;
                         height: 36px;
@@ -119,7 +124,7 @@
                         top: 0;
                         left: -100px;
                     }
-                    
+
                         header .info.showing .body .show .gradient {
                             display: none;
                         }
@@ -130,7 +135,7 @@
             margin: 20px auto 0 auto;
             overflow: hidden;
         }
-            
+
             .permalink + #posts .bubble {
                 margin-top: 10px;
             }
@@ -141,7 +146,7 @@
                 height: 34px;
                 margin: 0 auto;
             }
-            
+
             .bubble .content {
                 background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/content_bg.png') -1px 0 repeat-y transparent;
                 width: 528px;
@@ -149,7 +154,7 @@
                 margin: 0 auto;
                 padding: 2px 40px;
             }
-            
+
                 .bubble.description .content {
                     padding: 0 40px 0 40px;
                 }
@@ -158,23 +163,23 @@
                 width: 600px;
                 padding: 0 4px;
             }
-                
+
                 .bubble .content img.photo {
                     display: block;
                     border: 4px solid #fff;
                     width: 520px;
                     height: auto;
                 }
-                
+
                 .bubble .content .copy {
                     font-size: 26px;
                     color: #333536;
                 }
-                    
+
                     .bubble .content .copy a {
                         text-decoration: underline;
                     }
-                    
+
                     .bubble .content h2 {
                         color: #535456;
                         font-size: 36px;
@@ -182,11 +187,11 @@
                         margin: 0;
                         padding: 0;
                     }
-                    
+
                     .bubble .content .copy p {
                         margin: 20px 0;
                     }
-                    
+
                     .bubble .content .copy code {
                         word-wrap: break-word;
                     }
@@ -222,7 +227,7 @@
                                 display: inline-block;
                                 float: left;
                             }
-                            
+
                                 .audio_player a.play strong.listen {
                                     margin: 18px 0 0 0;
                                     display: inline-block;
@@ -240,21 +245,21 @@
                     .bubble .content .copy.text_post p:first-child {
                         margin-top: 0;
                     }
-                    
+
                     .bubble .content .copy p:last-child {
                         margin-bottom: 0;
                     }
-                    
+
                     .bubble .content .copy blockquote {
                         margin: 20px 0px 20px 20px;
                         padding-left: 30px;
                         border-left: solid 6px #c9cccf;
                     }
-                    
+
                     .bubble .content .copy img {
                         max-width: 100%;
                     }
-                    
+
                     .bubble .content .video {
                         width: 520px;
                         font-size: 26px;
@@ -266,51 +271,51 @@
                             border: 4px solid #fff;
                             margin: 0 auto;
                         }
-                        
+
                         .bubble .content .video a {
                             margin: 0 auto;
                         }
-                        
+
                             .bubble .content .video a img {
                                 width: 100%;
                                 height: auto;
                             }
-                            
+
                             .bubble .content .video a div {
                                 border: none;
                             }
-                        
+
                         .bubble .content .video * {
                             width: auto;
                             min-height: auto;
                             padding: 0px;
                             margin: 0;
                         }
-                        
+
                         .bubble .content .html_photoset {
                             width: 520px;
                             text-align: center;
                             border: none;
                         }
-                                                
+
                             .bubble .content .html_photoset p {
                                 margin: 30px 0;
                             }
-                            
+
                             .bubble .content .html_photoset p:first-child {
                                 margin-top: 0;
                             }
-                            
+
                                 .bubble .content .html_photoset p img.photoset_photo {
                                     width: 520px;
                                     margin: 0 auto;
                                     border: 4px solid #fff;
                                 }
-                                
+
                                 .bubble .content .html_photoset p.photoset_caption {
                                     margin-top: 20px;
                                 }
-                    
+
                     .bubble .content .link {
                         display: block;
                         font-size: 32px;
@@ -318,19 +323,19 @@
                         font-weight: bold;
                         color: #49729a;
                     }
-                    
+
                         .bubble .content .link span {
                             font-family: 'Lucida Grande', sans-serif;
                             vertical-align: -1px;
                         }
-                    
+
                     .bubble .content .quote {
                         font-size: 32px;
                         line-height: 36px;
                         font-weight: bold;
                         color: #535456;
                     }
-                    
+
                         .bubble .content .quote_source *:first-child {
                             margin-top: 0;
                         }
@@ -338,7 +343,7 @@
                     .bubble .content .audio {
                         margin-top: 0;
                     }
-                    
+
                     .bubble .content .audio img {
                         display: inline-block;
                         border: none;
@@ -348,7 +353,7 @@
                         top: 8px;
                         margin-right: 8px;
                     }
-                    
+
                     .bubble .content .audio a {
                         font-weight: bold;
                     }
@@ -356,17 +361,17 @@
                     .bubble .content .audio strong u {
                         font-size: 24px;
                     } */
-                    
+
                     .bubble .content .video img {
                         border: none;
                     }
-                
+
                 .bubble .content .chat {
                     width: 100%;
                     border-bottom: 2px solid #fff;
                     margin: 0;
                 }
-                
+
                     .bubble .content .chat td {
                         padding: 16px 0;
                         border-top: 2px solid #fff;
@@ -386,7 +391,7 @@
                         font-weight: bold;
                         max-width: 230px;
                     }
-                
+
                 .bubble .content .answer_question {
                     background: #e4e7ea;
                     -webkit-border-radius: 16px;
@@ -400,21 +405,21 @@
                     color: #535355;
                     word-wrap: break-word;
                 }
-                
+
                 .bubble .content .answer_asker {
                     margin-top: 24px;
                     font-weight: bold;
                     font-size: 28px;
                     color: #65676a;
                 }
-                
+
                     .bubble .content .answer_asker img {
                         display: inline-block;
                         border: none;
                         vertical-align: -14px;
                         margin: 0 14px 0 20px;
                     }
-                
+
                 .bubble .content .date,
                 .bubble .content .note_count {
                     float: left;
@@ -424,11 +429,11 @@
                     margin-top: 26px;
                     text-decoration: underline;
                 }
-                
+
                 .bubble .content .note_count {
                     float: right;
                 }
-                
+
                 .bubble .content ol.notes {
                     margin: 0;
                     padding: 0;
@@ -437,13 +442,13 @@
                     list-style-type: none;
                     font-size: 24px;
                 }
-                
+
                     .bubble .content ol.notes li.note {
                         padding: 20px 60px 20px 20px;
                         border-top: 2px solid #fff;
                         border-bottom: 2px solid #dde2e7;
                     }
-                    
+
                         .bubble .content ol.notes li.note img.avatar {
                             display: inline-block;
                             vertical-align: -10px;
@@ -451,47 +456,47 @@
                             width: 32px;
                             height: 32px;
                         }
-                        
+
                         .bubble .content ol.notes li.note span.action {
                             font-weight: normal;
                         }
-                        
+
                         .bubble .content ol.notes li.note .answer_content {
                             font-weight: normal;
                         }
-                        
+
                         .bubble .content ol.notes li.note blockquote {
                             border-left: 6px solid #c9cccf;
                             padding: 2px 20px;
                             margin: 20px 0px 0px 50px;
                         }
-                            
+
                             .bubble .content ol.notes li.note blockquote a {
                                 text-decoration: none;
                             }
-                        
+
                         .bubble .content ol.notes li.note .tumblelog,
                         .bubble .content ol.notes li.note .source_tumblelog {
                             font-weight: bold;
                             color: #303132;
                         }
-                        
+
                         .bubble .content ol.notes li.like {
                             background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/note_like.png') 546px 27px no-repeat;
                         }
-                    
+
                         .bubble .content ol.notes li.reblog {
                             background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/note_reblog.png') 546px 24px no-repeat;
                         }
-                    
+
                         .bubble .content ol.notes li.answer {
                             background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/note_answer.png') 550px 22px no-repeat;
                         }
-                    
+
                         .bubble .content ol.notes li.facebook_comment {
                             background: url('http://assets.tumblr.com/images/note_facebook_2.png') 544px 24px no-repeat;
                         }
-                    
+
                         .bubble .content ol.notes li.photo,
                         .bubble .content ol.notes li.reply {
                             background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/note_reply.png') 544px 24px no-repeat;
@@ -500,19 +505,19 @@
                         .bubble .content ol.notes a.more_notes_link {
                             font-weight: bold;
                         }
-            
+
             .bubble .bottom {
                 background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/content_bottom.png') -1px 0 repeat-y transparent;
                 width: 608px;
                 height: 38px;
                 margin: 0 auto;
             }
-            
+
                 .bubble.description .bottom {
                     height: 102px;
                     background-image: url('http://static.tumblr.com/thpaaos/lXDlb08n9/description_bottom.png');
                 }
-                
+
                 .bubble.permalink .bottom {
                     height: 59px;
                     background-image: url('http://static.tumblr.com/thpaaos/IyXlb0h5q/permalink_bottom.png');
@@ -525,18 +530,18 @@
             text-align: center;
             padding: 38px 0;
             display: block;
-        }    
+        }
 
            .load img {
                 vertical-align: -2px;
                 margin-right: 20px;
             }
-            
+
         .links {
             margin: 30px;
             overflow: hidden;
         }
-        
+
             .links a {
                 color: #aeaeae;
                 font-size: 26px;
@@ -557,7 +562,7 @@
     </style>
     <script type="text/javascript" charset="utf-8">
         setTimeout(function() { window.scrollTo(0,1) }, 100);
-                
+
         function microAjax(B,A) {
             this.bindFunction = function(E,D){
                 return function(){
@@ -604,98 +609,98 @@
                 C.send(this.postBody);
             }
         }
-        
-        function $(id) {
+
+        function getEleById(id) {
             return document.getElementById(id);
         }
-        
+
         var loading_next_page = false;
         var next_page = 1;
         var current_url;
-                
+
         function load_more_posts() {
             if (loading_next_page) return;
             loading_next_page = true;
-            
-            $('load_more').style.display = 'none';
-            $('loading_more').style.display = 'block';
-            
+
+            getEleById('load_more').style.display = 'none';
+            getEleById('loading_more').style.display = 'block';
+
             if (! current_url) current_url = document.location.href;
             if (current_url.charAt(current_url.length - 1) != '/') current_url += '/';
 
             if (next_page === 1) current_url += 'page/1';
-            
+
             current_url = current_url.replace('page/' + next_page, 'page/' + ++next_page);
-            
+
             microAjax(current_url, function(res) {
-                $('posts').innerHTML += res.split('<!-- START' + ' POSTS -->')[1].split('<!-- END' + ' POSTS -->')[0];
-                $('loading_more').style.display = 'none';
-                $('load_more').style.display = 'block';
+              getEleById('posts').innerHTML += res.split('<!-- START' + ' POSTS -->')[1].split('<!-- END' + ' POSTS -->')[0];
+              getEleById('loading_more').style.display = 'none';
+              getEleById('load_more').style.display = 'block';
                 loading_next_page = false;
             });
         }
-        
+
         function show_notes(post_id, notes_url) {
-            if ($('notes_' + post_id).innerHTML == '') {
+            if (getEleById('notes_' + post_id).innerHTML == '') {
                 var old_innerHTML =  $('show_notes_' + post_id).innerHTML;
-                $('show_notes_' + post_id).innerHTML = 'Loading notes...';
-                
+                getEleById('show_notes_' + post_id).innerHTML = 'Loading notes...';
+
                 microAjax(notes_url, function(res) {
-                    $('show_notes_' + post_id).innerHTML = old_innerHTML;
-                    
-                    $('notes_' + post_id).innerHTML = res;
-                    $('notes_container_' + post_id).style.display = 'inherit';
-                    
-                    $('show_notes_' + post_id).style.display = 'none';
-                    $('hide_notes_' + post_id).style.display = 'inherit';
+                  getEleById('show_notes_' + post_id).innerHTML = old_innerHTML;
+
+                  getEleById('notes_' + post_id).innerHTML = res;
+                  getEleById('notes_container_' + post_id).style.display = 'inherit';
+
+                  getEleById('show_notes_' + post_id).style.display = 'none';
+                  getEleById('hide_notes_' + post_id).style.display = 'inherit';
                 });
             } else {
-                $('notes_container_' + post_id).style.display = 'inherit';
-                
-                $('show_notes_' + post_id).style.display = 'none';
-                $('hide_notes_' + post_id).style.display = 'inherit';
+              getEleById('notes_container_' + post_id).style.display = 'inherit';
+
+              getEleById('show_notes_' + post_id).style.display = 'none';
+              getEleById('hide_notes_' + post_id).style.display = 'inherit';
             }
         }
-        
+
         function hide_notes(post_id) {
-            $('show_notes_' + post_id).style.display = 'inherit';
-            $('hide_notes_' + post_id).style.display = 'none';
-            $('notes_container_' + post_id).style.display = 'none';
+          getEleById('show_notes_' + post_id).style.display = 'inherit';
+          getEleById('hide_notes_' + post_id).style.display = 'none';
+          getEleById('notes_container_' + post_id).style.display = 'none';
         }
-        
+
         function play_audio(post_id) {
             var audio = $('audio_file_' + post_id);
-            
+
             if (audio.paused) {
                 audio.play();
-                $('play_button_' + post_id).className = 'play is_playing';
+                getEleById('play_button_' + post_id).className = 'play is_playing';
             } else {
                 audio.pause();
-                $('play_button_' + post_id).className = 'play';
+                getEleById('play_button_' + post_id).className = 'play';
             }
         };
-        
-        var showing_info = 0;        
+
+        var showing_info = 0;
 
         function show_more_info() {
             if (showing_info == 0) {
-                $('show_more_info_link').innerHTML = 'X';
-                $('info_container').className = 'info showing';
+              getEleById('show_more_info_link').innerHTML = 'X';
+              getEleById('info_container').className = 'info showing';
                 showing_info = 1;
             } else {
-                $('show_more_info_link').innerHTML = 'Show all';
-                $('info_container').className = 'info';
+              getEleById('show_more_info_link').innerHTML = 'Show all';
+              getEleById('info_container').className = 'info';
                 showing_info = 0;
             }
         }
-        
+
         function strip_anchors(input) {
             return input.replace(/<a /g, '<u ').replace(/<\/a>/g, '<\/u>');
         }
     </script>
 </head>
 <body>
- 
+
     <header class="gray_bubble">
         <a href="/" class="title">{Title}&nbsp;</a>
         <div class="clear"></div>
@@ -775,7 +780,7 @@
                     {/block:Quote}
 
                     {block:Audio}
-                        <div class="audio_player {block:AlbumArt}with_cover_art{/block:AlbumArt}" id="play_audio_{PostID}"> 
+                        <div class="audio_player {block:AlbumArt}with_cover_art{/block:AlbumArt}" id="play_audio_{PostID}">
                             {block:AlbumArt}<img src="{AlbumArtURL}" class="cover"/>{/block:AlbumArt}
                             <a class="play" onclick="play_audio({PostID}); return false;" id="play_button_{PostID}">
                                 {block:TrackName}<strong>{TrackName}</strong><br/>{/block:TrackName}
@@ -793,7 +798,7 @@
                     {/block:Audio}
 
                     {block:Video}
-                        <div class="video"> 
+                        <div class="video">
                             {Video-500}
                         </div>
                         {block:Caption}
@@ -838,9 +843,9 @@
                              Hide notes
                         </a>
                     {/block:NoteCount}
-<!--IF DISQUS---
+                    <!--IF DISQUS---
                     {block:Date}<a href="{Permalink}#disqus_thread" class="note_count" style="padding-left:6px;">Comments</a>{/block:Date}
-----ENDIF DISQUS-->
+                    ----ENDIF DISQUS-->
                     <div class="clear"></div>
                 </div>
                 <div class="bottom"></div>
@@ -853,46 +858,6 @@
                 </div>
             {/block:IndexPage}
             {block:PermalinkPage}
-<!--IF DISQUS---
-    {block:Date}
-        <div class="bubble">
-            <div class="top"></div>
-            <style type="text/css">
-                #disqus_thread {
-                    background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/content_bg.png') -1px 0 repeat-y transparent;
-                    width: 586px;
-                    margin: 0;
-                    padding: 0 11px;
-                }
-                #disqus_thread a {
-                    text-decoration: underline;
-                }
-                #dsq-new-post h3 {
-                    margin-top: 0;
-                }
-                #dsq-content .dsq-item-trackback {
-                    margin-bottom: 0;
-                }
-                #dsq-global-toolbar {
-                    margin-top: 0 !important;
-                }
-            </style>
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = 'http://DISQUS_SHORTNAME.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-            </script>
-            <div class="content">
-                <div class="copy">
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="bottom"></div>
-        </div>
-    {/block:Date}
-----ENDIF DISQUS-->
                 {block:PostNotes}
                     <div class="bubble">
                         <div class="top"></div>
@@ -921,7 +886,7 @@
         <a href="http://www.tumblr.com">Powered by Tumblr</a>
         <a href="/disable_mobile_interface" onclick="if(confirm('Switch from mobile to standard view?')){} else {return false;}">Standard view</a>
     </div>
-    
+
     <script type="text/javascript" charset="utf-8">
         var info_style = window.getComputedStyle(document.getElementById('body_container'), null);
 
@@ -933,15 +898,7 @@
             document.body.className = 'android';
         }
     </script>
-<!--IF DISQUS---
-<script type="text/javascript">
-var disqus_shortname = 'DISQUS_SHORTNAME';
-(function () {
-  var s = document.createElement('script'); s.async = true;
-  s.src = 'http://disqus.com/forums/' + disqus_shortname + '/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script>
-----ENDIF DISQUS-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 </body>
 </html>
