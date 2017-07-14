@@ -1,8 +1,5 @@
-This is a FORK of http://orangkucing.tumblr.com/iphone-theme-install
 
-
----------------------------------------------------------------------
-**rowrz edit: allows the use of jquery libraries without conflicting infinite scroll**
+**edit: allows the use of jquery libraries without conflicting infinite scroll**
 
 I've also added some html5 normalizer scripts, and the deafult jquery 1.11.1 script
 
